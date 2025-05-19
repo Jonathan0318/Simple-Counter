@@ -1,0 +1,40 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: 'Orbitron', monospace;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+.clock {
+  background-color: #111;
+  padding: 30px 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px greenyellow, inset 0 0 30px greenyellow;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-size: 4rem;
+  color: greenyellow;
+  letter-spacing: 10px;
+  border: 3px solid greenyellow;
+}
+
+.digit {
+  width: 50px;
+  height: 80px;
+  background-color: #222;
+  border-radius: 12px;
+  box-shadow: 0 0 15px greenyellow inset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
